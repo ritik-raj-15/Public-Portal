@@ -1,0 +1,60 @@
+body{
+    background: url("../images/background.png");
+    background-size: cover;
+    height: 90vh;
+}
+#formContainer{
+    padding-top: 3%;
+}
+#headfont{
+    font-family: "Cooper Black";
+}
+/*header font size for mobile*/
+@media (max-width:525px){
+    .jumbotron-fluid h1{
+     font-size:1em;
+   }
+   h1,h3,h6{
+    font-size: 0.7em;
+}
+}
+/* In between of  530-700*/
+@media (min-width: 600px) {
+    .jumbotron-fluid h1 {
+        font-size: 1.5em;
+    }
+    h1,h3,h6{
+        font-size: 0.9em;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron-fluid h1 {
+        font-size: 1.5em;
+    }
+    h1,h3,h6{
+        font-size: 0.9em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron-fluid h1 {
+        font-size: 2.4em;
+    }
+    h1,h3,h6{
+        font-size: 1em;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .jumbotron-fluid h1 {
+        font-size: 2.5em;
+    }
+} */
+
+img{
+    height: 110px;
+    width: 150px;
+}

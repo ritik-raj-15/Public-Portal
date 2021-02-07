@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Verification Portal</title>
+</head>
+<body>
+  <header class="jumbotron-fluid bg-warning">
+      <div class="row m-0">
+        <div class="col-12 col-sm-2 text-center">
+          <img src="images/logo.png" class="img-fluid" alt="advaitservices">
+        </div>
+            <div class="col-12 col-sm-8 text-center">
+                <h1 class="text-danger" id="headfont">ADVAIT COMPUTER EDUCATIONAL INSTITUTE</h1>
+                <h3>An ISO 9001:2015 Certified Computer Education Board</h3>
+                <h6>Registered Under Govt. of India, Ministry of Corporate Affairs & N.C.T Gove., New Delhi</h6>
+                <h6>Affiliated by:-</h6>
+                <h6>Education Maximum Private Limited (E-Max), HARYANA(INDIA) & Softbrain Educational Solution Provider (Chandigarh)</h6>
+              </div>
+      </div>
+    <!-- <picture>
+      <source media="(max-width: 576px)" srcset="images/logo1.png">
+      <source media="(max-width: 768px)" srcset="images/logo1.png">
+      <source media="(max-width: 992px)" srcset="images/logo1.png">
+      <img src="images/logo1.png" alt="advaitservice">
+    </picture> -->
+  </header>
+    <div id="formContainer" class="container col-xl-6">
+        <form action="/action_page.php">
+            <fieldset class="border border-dark p-3">
+                <legend class="w-auto text-center"><h2><u>Verification Portal:</u></h2></legend>
+          <div class="form-group">
+            <label for="rollno" class="font-weight-bold">Roll Number:</label>
+            <input type="text" class="form-control" id="rollno" placeholder="Enter Roll Number" name="rollno" required>
+          </div>
+          <div class="form-group">
+            <label for="dob" class="font-weight-bold">Date of Birth:</label>
+            <input type="date" class="form-control" id="dob" placeholder="Enter D.O.B" name="dob" required>
+          </div>
+          <div class="d-flex justify-content-center"><button type="submit" class="btn btn-primary btn-block col-5">Submit</button></div>
+            </fieldset>
+        </form>
+      </div>
+</body>
+</html>
